@@ -1,0 +1,31 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: src/content/data
+  label: Data
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+- type: directory
+  path: src/content
+  label: Content
+  create: all
+  match: "**/*"
+  exclude: data/**.*
+  new_doc_ext: md
+upload_dir: ''
+public_path: https://res.cloudinary.com/djd0plux8/image/upload/w_auto:100:1200,dpr_auto,f_auto
+front_matter_path: ''
+use_front_matter_path: true
+file_template: ":filename:"
+build:
+  preview_output_directory: build
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm start
