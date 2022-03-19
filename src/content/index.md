@@ -1,20 +1,23 @@
 ---
 layout: simple.njk
-bodyClass: "home"
-
+bodyClass: home
 seo:
   title: Metalsmith Bare-bones Starter
-  description: "This starter should get you up and running with your new favorite static site genrator Metalsmith"
+  description: This starter should get you up and running with your new favorite static
+    site genrator Metalsmith
   socialImage: "/assets/images/metalsmith-starter-social.png"
-  canonicalOverwrite: ""
+  canonicalOverwrite: ''
+
 ---
 # Metalsmith Bare-bone Starter
 
 ![](/assets/images/hammer-anvil-blacksmith.png)
 
-This Metalsmith starter website is intended to help you to get started with building a static site with Metalsmith. It uses Markdown to write content and the Nunjucks templating language to build pages.
+This Metalsmith starter website is based on the [Bare Bones Starter](https://github.com/wernerglinka/metalsmith-bare-bones-starter "Bare Bones Metalsmith Starter"). The difference is that this starter is setup with the Forestry IO Content Management System. Forestry is a JAMStack CMS that sit atop Github, allowing all content, including data json files, to be edited with a graphical UI. 
 
-The rest is left to your imagination.
+A few pages have been implemented, you can add pages and folders in forestry directly in the dashboard.
+
+Now go and let'er rip.
 
 <a class="gitter-invite" href="https://gitter.im/metalsmith/community">
 <p>Join the Metalsmith community at <img src="/assets/images/gitter.png" alt="gitter" /> to discuss all-things Metalsmith.</p>
