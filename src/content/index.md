@@ -9,7 +9,7 @@ seo:
   canonicalOverwrite: ''
 
 ---
-# Metalsmith Bare-bone Starter
+# Metalsmith Forestry Starter
 
 ![](/assets/images/hammer-anvil-blacksmith.png)
 
