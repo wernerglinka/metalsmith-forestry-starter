@@ -17,10 +17,10 @@ sections:
   match: "**/*"
   exclude: data/**.*
   new_doc_ext: md
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: ''
+public_path: https://res.cloudinary.com/djd0plux8/image/upload/w_auto:100:1200,dpr_auto,f_auto
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
