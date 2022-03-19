@@ -9,14 +9,14 @@ sections:
   label: Data
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
   path: src/content
-  label: Conteny
+  label: Content
   create: all
   match: "**/*"
   exclude: data/**.*
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
