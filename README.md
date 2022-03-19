@@ -2,12 +2,15 @@
   <a href="https://www.metalsmith.io">
     <img alt="Metalsmith" src="https://www.glinka.co/assets/images/metalsmith-logo-bug.png" width="60" />
   </a>
+  <a href="https://forestry.io/">
+    <img alt="ForestryIO" src="https://res.cloudinary.com/djd0plux8/image/upload/v1647711304/forestry-starter/forestry-bug_dxt2rl.jpg" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Metalsmith bare-bones starter
+  Metalsmith Forestry starter
 </h1>
 
-Start off your Metalsmith journey with this bare-bones boilerplate. This starter includes Markdown content and Nunjucks templating. Check out a [demo of this starter](https://metalsmith-bare-bones-starter.netlify.app/).
+Based on the Metalsmith bare-bones starter. This starter is setup for content editing with the ForestryIO CMS
 
 ## Quick start
 
@@ -16,7 +19,7 @@ Start off your Metalsmith journey with this bare-bones boilerplate. This starter
     Clone the starter repository to create a new site.
 
     ```shell
-    git clone https://github.com/wernerglinka/metalsmith-bare-bones-starter.git new-site 
+    git clone https://github.com/wernerglinka/metalsmith-forestry-starter.git new-site 
     ```
 
 1.  **Start developing.**
