@@ -9,7 +9,7 @@ const when = require("metalsmith-if");
 const htmlMinifier = require("metalsmith-html-minifier");
 const metadata = require("metalsmith-metadata");
 
-const msStatic = require("metalsmith-static");
+const msStatic = require("metalsmith-static-files");
 
 const { dependencies } = require("./package.json");
 const isProduction = process.env.NODE_ENV === "production";
