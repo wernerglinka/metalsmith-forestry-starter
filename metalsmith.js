@@ -7,10 +7,9 @@ const drafts = require("@metalsmith/drafts");
 const permalinks = require("@metalsmith/permalinks");
 const when = require("metalsmith-if");
 const htmlMinifier = require("metalsmith-html-minifier");
-const assets = require("metalsmith-assets");
 const metadata = require("metalsmith-metadata");
 
-const static = require("metalsmith-static");
+const msStatic = require("metalsmith-static");
 
 const { dependencies } = require("./package.json");
 const isProduction = process.env.NODE_ENV === "production";
@@ -65,7 +64,7 @@ Metalsmith(__dirname)
   .use(layouts(templateConfig))
 
   .use(
-    static({
+    msStatic({
       source: "src/assets/",
       destination: "assets/",
     })
