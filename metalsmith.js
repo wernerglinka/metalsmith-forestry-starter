@@ -10,6 +10,8 @@ const htmlMinifier = require("metalsmith-html-minifier");
 const assets = require("metalsmith-assets");
 const metadata = require("metalsmith-metadata");
 
+const static = require("metalsmith-static");
+
 const { dependencies } = require("./package.json");
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -63,9 +65,9 @@ Metalsmith(__dirname)
   .use(layouts(templateConfig))
 
   .use(
-    assets({
-      source: "./src/assets/",
-      destination: "./assets/",
+    static({
+      source: "src/assets/",
+      destination: "assets/",
     })
   )
 
