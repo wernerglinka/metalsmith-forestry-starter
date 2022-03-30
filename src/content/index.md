@@ -13,6 +13,8 @@ seo:
 
 ![](/assets/images/hammer-anvil-blacksmith.png)
 
+And this is a test
+
 This Metalsmith starter website is based on the [Bare Bones Starter](https://github.com/wernerglinka/metalsmith-bare-bones-starter "Bare Bones Metalsmith Starter"). The difference is that this starter is setup with the Forestry IO Content Management System. Forestry is a JAMStack CMS that sit atop Github, allowing all content, including data json files, to be edited with a graphical UI.
 
 Every edit in Forestry will be committed to Github and this will trigger a site rebuild at Netlify. The demo site can be viewwd at [https://metalsmith-forestry-starter.netlify.app/](https://metalsmith-forestry-starter.netlify.app/ "https://metalsmith-forestry-starter.netlify.app/").
