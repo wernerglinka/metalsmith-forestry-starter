@@ -10,7 +10,7 @@
   Metalsmith Forestry starter
 </h1>
 
-Based on the Metalsmith bare-bones starter. This starter is setup for content editing with the ForestryIO CMS
+Based on the Metalsmith bare-bones starter. This starter is setup for content editing with the ForestryIO CMS. See the [demo site](https://metalsmith-forestry-starter.netlify.app/) here.
 
 ## Quick start
 
