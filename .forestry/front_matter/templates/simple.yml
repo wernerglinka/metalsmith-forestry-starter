@@ -1,0 +1,26 @@
+---
+label: Simple
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: bodyClass
+  label: bodyClass
+- type: field_group
+  name: seo
+  label: seo
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: socialImage
+    label: socialImage
+  - type: text
+    name: canonicalOverwrite
+    label: canonicalOverwrite
