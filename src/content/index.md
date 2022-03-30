@@ -24,5 +24,3 @@ Now go and let'er rip.
 <a class="gitter-invite" href="https://gitter.im/metalsmith/community">
 <p>Join the Metalsmith community at <img src="/assets/images/gitter.png" alt="gitter" /> to discuss all-things Metalsmith.</p>
 </a>
-
-TADA
