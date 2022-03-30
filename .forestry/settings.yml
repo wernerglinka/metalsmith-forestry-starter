@@ -17,8 +17,8 @@ sections:
   match: "**/*"
   exclude: data/**.*
   new_doc_ext: md
-upload_dir: ''
-public_path: https://res.cloudinary.com/djd0plux8/image/upload/w_auto:100:1200,dpr_auto,f_auto
+upload_dir: https://github.com/wernerglinka/metalsmith-forestry-starter/tree/main/src/assets/images
+public_path: https://github.com/wernerglinka/metalsmith-forestry-starter/tree/main/src/assets/images
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
