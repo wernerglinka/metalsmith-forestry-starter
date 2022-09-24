@@ -1,13 +1,14 @@
 ---
 layout: simple.njk
-bodyClass: "other-page"
-
+bodyClass: other-page
 seo:
   title: Metalsmith Bare-bones Starter
-  description: "This starter should get you up and running with your new favorite static site genrator Metalsmith"
+  description: This starter should get you up and running with your new favorite static
+    site genrator Metalsmith
   socialImage: "/assets/images/metalsmith-starter-social.png"
-  canonicalOverwrite: ""
+  canonicalOverwrite: ''
+
 ---
 # Just another page
 
-Nothing here... fill in the blanks
+Nothing here... fill in the blanks, quickly before winter arrives
