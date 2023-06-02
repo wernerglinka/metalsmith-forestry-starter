@@ -7,7 +7,7 @@
   </a>
 </p>
 <h1 align="center">
-  Metalsmith Forestry starter
+  Metalsmith Forestry starter is DISCONTINUED. ForestyIO announced their end of life on March 22, 2023.
 </h1>
 
 Based on the Metalsmith bare-bones starter. This starter is setup for content editing with the ForestryIO CMS. See the [demo site](https://metalsmith-forestry-starter.netlify.app/) here.
